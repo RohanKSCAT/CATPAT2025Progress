@@ -1,0 +1,12 @@
+{
+  "name": "pat-progress-tracker-functions",
+  "version": "1.0.0",
+  "description": "Netlify functions for PAT Progress Tracker",
+  "dependencies": {
+    "@google/genai": "^1.15.0",
+    "@netlify/functions": "^4.2.4"
+  },
+  "engines": {
+    "node": "20"
+  }
+}
