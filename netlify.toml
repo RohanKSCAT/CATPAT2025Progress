@@ -1,13 +1,17 @@
 # Netlify configuration file
 
 [build]
-  # Serve the repository root
-  publish = "."
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
 
 [functions]
   # Serverless functions directory
   directory = "netlify/functions"
 
+# SPA routing: send all paths to index.html so client-side router can handle them
 [[redirects]]
   from = "/*"
   to = "/index.html"
