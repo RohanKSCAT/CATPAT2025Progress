@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Netlify configuration file
 
 # This section defines the build settings for your site.
@@ -10,4 +11,18 @@
 [functions]
   # Specifies the directory where your function source code lives.
   # Your gemini.ts file is in 'netlify/functions', so we set this path.
+=======
+# Netlify configuration file
+
+# This section defines the build settings for your site.
+[build]
+  # Specifies the directory that contains the deploy-ready assets of your site.
+  # For your project, since index.html is in the root, we use "/".
+  publish = "/"
+
+# This section configures your serverless functions.
+[functions]
+  # Specifies the directory where your function source code lives.
+  # Your gemini.ts file is in 'netlify/functions', so we set this path.
+>>>>>>> 283b3471860c05d26d569526cbfcd2e50824953e
   directory = "netlify/functions/"

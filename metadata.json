@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 {
   "name": "PAT Progress Tracker 2025",
   "description": "A web application for students to track their progress on the CAT SBA: PAT 2025 project. Students can log in with their exam number to update their task statuses from 'Not ready' to 'Ready'.",
   "requestFramePermissions": []
+=======
+{
+  "name": "PAT Progress Tracker 2025",
+  "description": "A web application for students to track their progress on the CAT SBA: PAT 2025 project. Students can log in with their exam number to update their task statuses from 'Not ready' to 'Ready'.",
+  "requestFramePermissions": []
+>>>>>>> 283b3471860c05d26d569526cbfcd2e50824953e
 }
