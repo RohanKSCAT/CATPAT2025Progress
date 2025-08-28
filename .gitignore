@@ -1,11 +1,6 @@
-﻿# dependencies
-node_modules/
-
-# builds
+﻿node_modules/
 dist/
 build/
-
-# env + logs + editor noise
 .env
 .env.*.local
 *.log
